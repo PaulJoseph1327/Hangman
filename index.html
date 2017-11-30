@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>If this was a Movie it Would get a 0% on Rotten Tomatoes</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<div id="Title">Hangman</div>
+<select id="Difficulty">
+    <option value="1">Easy</option>
+    <option value="2">Medium</option>
+    <option value="3">Hard</option>
+    <option value="4">Insane</option>
+</select>
+
+<button id="WordSelect" onclick="doIt()">Select Word!</button>
+<div></div>
+<div></div>
+<div></div>
+
+<select id="Letter">
+    <option value="a">A</option>
+    <option value="b">B</option>
+    <option value="c">C</option>
+    <option value="d">D</option>
+    <option value="e">E</option>
+    <option value="f">F</option>
+    <option value="g">G</option>
+    <option value="h">H</option>
+    <option value="i">I</option>
+    <option value="j">J</option>
+    <option value="k">K</option>
+    <option value="l">L</option>
+    <option value="m">M</option>
+    <option value="n">N</option>
+    <option value="o">O</option>
+    <option value="p">P</option>
+    <option value="q">Q</option>
+    <option value="r">R</option>
+    <option value="s">S</option>
+    <option value="t">T</option>
+    <option value="u">U</option>
+    <option value="v">V</option>
+    <option value="w">W</option>
+    <option value="x">X</option>
+    <option value="y">Y</option>
+    <option value="z">Z</option>
+</select>
+
+<button id="GuessButton" onclick="onSubmit()">Guess!</button>
+
+<div id="output1"></div>
+<div id="word"></div>
+<div id="guessedLetters"></div>
+<div id="check"></div>
+<div id="lives"></div>
+<div id="lose"></div>
+<div id="win"></div>
+<div id="wordwas"></div>
+</body>
+</html>

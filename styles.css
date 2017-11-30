@@ -1,0 +1,54 @@
+body {
+    font-family: "Georgia";
+    color: red;
+    text-align: center;
+    vertical-align: top;
+    background: url(https://i.pinimg.com/736x/01/35/2b/01352b00e1914879039530fb36f1373a--smiley-symbol-happy-faces.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#Title{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#word{
+    font-size: 30px;
+}
+
+#WordSelect{
+    background-color: red;
+    border-color: red;
+    color: yellow;
+}
+
+#GuessButton {
+     background-color: red;
+     border-color: red;
+     color: yellow;
+ }
+
+#win{
+    font-size: 100px;
+    text-align: center;
+}
+
+#lose{
+    font-size: 100px;
+    text-align: center;
+}
+
+#wordwas{
+    font-size: 30px;
+}
+
+#guessedLetters{
+    font-size: 20px;
+}
+
+#lives{
+    font-size: 20px;
+}
